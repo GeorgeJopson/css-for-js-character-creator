@@ -73,7 +73,9 @@
     min-height: 300px;
 
     top: 32px;
-    left: 15%;
-    right: 15%;
+    left: 0;
+    right: 0;
+
+    margin: auto;
   }
 }
