@@ -54,12 +54,12 @@
 @media (max-width: 48rem) {
   .characterEditor {
     padding-top: calc(max(60%,350px));
-    padding-bottom: 32px;
   }
 
   .header{
     display:none;
   }
+
   .controlColumn {
     white-space: nowrap;
     overflow: scroll;
@@ -68,11 +68,12 @@
 
   .characterWrapper {
     position: fixed;
-    top: 32px;
-    left: 15%;
-    right:15%;
+
     width: 70%;
     min-height: 300px;
-    margin: 0 auto;
+
+    top: 32px;
+    left: 15%;
+    right: 15%;
   }
 }
