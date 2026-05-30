@@ -1,4 +1,7 @@
 .footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+
   position: relative;
   padding: 32px;
   background: hsl(0deg, 0%, 5%);

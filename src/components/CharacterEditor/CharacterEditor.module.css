@@ -1,6 +1,8 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+
+  flex-grow: 1;
 }
 
 .maxWidthWrapper {
@@ -51,7 +53,7 @@
 
 @media (max-width: 48rem) {
   .characterEditor {
-    padding-top: 60%;
+    padding-top: calc(max(60%,350px));
     padding-bottom: 32px;
   }
 
