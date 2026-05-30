@@ -47,3 +47,30 @@
   bottom:0;
   background-color:hsl(195deg, 20%, 86%);
 }
+
+
+@media (max-width: 48rem) {
+  .characterEditor {
+    padding-top: 60%;
+    padding-bottom: 32px;
+  }
+
+  .header{
+    display:none;
+  }
+  .controlColumn {
+    white-space: nowrap;
+    overflow: scroll;
+    width: 100%;
+  }
+
+  .characterWrapper {
+    position: fixed;
+    top: 32px;
+    left: 15%;
+    right:15%;
+    width: 70%;
+    min-height: 300px;
+    margin: 0 auto;
+  }
+}
